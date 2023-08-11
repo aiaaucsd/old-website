@@ -1,0 +1,52 @@
+a:link {color:#1A366A;
+	text-decoration: none;}
+
+a:link.footer {color:#ffffff;
+	       text-decoration: none;}
+
+a:link.officer {color:#ffffff;
+	       text-decoration: none;}
+
+a:hover {color:#CCEBFF;
+	 text-decoration: underline;
+	 font-weight:none;}
+
+
+a:hover.officer2 {color:#ffffff;
+	 text-decoration: underline;
+	 font-weight:none;}
+
+
+a:visited {color:#1A366A;}
+
+a:visited.footer {color:#ffffff;
+		  text-decoration: underline;}
+
+a:visited.officer {color:#ffffff;
+		  text-decoration: underline;}
+
+table{font-family:arial, verdana, sans-serif;
+      font-size: small;
+      color:#000000;}
+
+tr.board1 {background: #1A366A;
+	   color:#ffffff;}
+
+tr.board2 {background:#CCEBFF;}
+	   
+
+.footer {font-family:arial, verdana, sans-serif;
+         font-size: x-small;
+         color: #ffffff;}
+
+.highlighted{background-color:#1A366A; 
+             color: #ffffff;}
+
+.holler {border-bottom-color: #1A366A;
+	 border-bottom: thin solid;
+	 width: 85%; 
+	 color: #1A366A;
+	 font-size: 14pt;
+	 text-align: left;}
+
+ul {list-style-type: square}

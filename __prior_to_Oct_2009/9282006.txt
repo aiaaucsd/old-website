@@ -1,0 +1,108 @@
+AIAA General Body Meeting: Thursday, September 28, 2006 - 7:00pm
+==============================================
+INTRODUCTION OF BOARD MEMBERS
+
+Chair: Jenny Rhymer
+
+Vice-Chair of Programs: Betty Chuong
+  - Heads committee to select and organize speakers, tours, social
+  - Opportunities for networking and influencing AIAA events
+
+Vice-Chair of Fundraising: Vacant
+  - Heads committee to raise money for the student chapter of AIAA
+  - Opportunities to network with industry
+
+Vice-Chair of Publicity: Irene Chan
+  - Heads committee to distribute information on the website, classes, flyers, posters 
+  - Fun and easy way to get involved in AIAA 
+
+Vice-Chair of Membership: Vacant 
+  - Heads committee to sign up new members and organize membership with professional AIAA
+  - Synopsize the thoughts of student members 
+  - Voice opinions of what AIAA should be doing
+
+More Officers 
+  - Secretary: Irene Chan
+    - Public information updates
+  - Treasurer: Samina Bhatia
+    - Money!  
+  - TESC Representatives: Tim Havard
+    - Liaison to the Triton Engineering Student Council 
+
+DESIGN, BUILD, FLY
+- Project Manager: Jeremy Stromsoe
+- Competition hosted by Raytheon Missile Systems and Cessna in Tuscon, AZ in April
+- Mission: DBF an electric powered aircraft to:
+  - Carry an air sampler system
+  - Carry a camera ball with a 5 lb. processor
+- Why join?
+  - Leadership
+  - Technical writing skills
+  - Present to professionals at General Atomics
+
+ROCKET
+- Project Manager: Samina Bhatia
+- Why Rockets?
+  - Cool stuff
+  - Right to say you're a rocket scientist
+  - Rocketry and space are privatized = JOBS AND $ IN THE FUTURE!
+  - If SDSU can with their liquid rocket project, we can have a hybrid rocket!
+- What is a hybrid rocket and why?
+  - Hybrid of liquid and solid technologies
+  - Liquid oxidizer is sprayed down an enclosure of solid fuel
+  - It's safer and less complex - it's the perfect human transfer rocket: THE WORLD IS IN DEMAND OF THIS
+- Goals  
+  - #1 goal: Meet people and learn as much as we can about rockets
+  - In early months: help/learn from SDSU's team
+  - Get mentorship from SpaceDev
+  - Join the competition for hybrid rockets next year in Utah
+- What we need? (Besides money.)
+  - A core of dedicated individuals
+
+AUVSI
+- Project Manager: Morgan Machado
+- Faculty Advisor: Professor John Kosmatka
+- 5th place finish last year! Top rookie team!
+- The Mission
+  - Unmanned surveillance
+  - Take off and transition to fully autonomous flight
+  - Dynamically update flight instructions in flight
+  - GPS waypoint navigation
+  - Autonomous target recognition
+  - Autonomous take off and landing
+- Why AUVSI?
+  - Real world,hands-on systems engineering and development
+  - Multidisciplinary: Aerospace, Mechanical, Structural, Electrical, and CSE students
+  - Ability to work on numerous parts of the plane: airframe - payload
+  - Inter-group communications skills
+  - Become better engineers!
+- Goals
+  - Autonomous target recognition : neural networks and edge recognition using live feed from onboard video camera
+  - Stabilized camera gimbal: improve data quality by controlling camera's orientation regardless of aircraft orientation. It is used to monitor the plane, give new navigation commands, etc.
+  - Wireless data network: ability to view identified targets in real-time without having to land the aircraft
+- First GBM: Tuesday, October 3, 7pm, Location TBA
+
+PROFESSOR NOMURA
+- AIAA is a pride of Jacobs School of Engineering
+- AIAA student projects prove help get ABET accreditation
+
+GET ACADEMIC CREDIT FOR DBF PARTICIPATION!
+- As early as next quarter, you'll be able to get one unit of academic credit for your participation in DBF. 
+- No prerequisites, no lectures, just your active participation and attendance! 
+- More details will come when the class is created.
+
+UPCOMING EVENTS
+Miramar Air Show and BBQ
+October 13-15th (BBQ on sat. 14th) 
+
+Xprize Cup
+Las Cruces, NM
+October 20-21th
+
+Convair Wind Tunnel Tour
+(through profession chap.)
+Nov 16th
+
+NEXT MEETING
+- Tuesday, November 14, 7:00pm, Location to be announced
+- Graduate panel
