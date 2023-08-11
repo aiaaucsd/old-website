@@ -1,0 +1,177 @@
+/*
+    AIAA @ UCSD
+    American Institute of Aeronautics and Astronautics
+    student chapter at Univ. of California, San Diego
+    
+    C. Jeff Chang (chc013@ucsd.edu)
+    October, 2009
+    
+    Content within this file is released under Creative Commons by-sa license.
+    See http://creativecommons.org/licenses/by-sa/3.0/us/ for more details.
+*/
+
+/* reset */
+
+* {
+  margin: 0;
+	padding: 0;
+	font-size: 1em;
+	text-decoration: none;
+	border: none;
+	list-style: none;
+	outline: none;
+}
+
+/* HTML text */
+
+hr { border:0px; border-bottom:1px solid #ccc; height:0px; margin-bottom:1em; }
+p { margin: 0.5em 0 0.5em; }
+dl { margin: 1em 0 1em; }
+dt { font-weight: bold; }
+dd { margin-left: 1.5em; }
+ul, ol { margin: 0.5em 0 0.5em; padding-left: 2em; }
+ul li { list-style: square inside none; }
+ol li { list-style: decimal inside none;}
+acronym { border-bottom: 1px dashed #999; cursor: help;}
+small, h6 { font-size: 0.75em; text-transform: uppercase; }
+sup, sub { font-size: 0.75em; }
+
+/* links */
+a:link, a:visited { color: #36c; }
+a:focus, a:hover, a:active {
+    color: #f60;
+    text-decoration: underline;
+}
+
+/* blockquote */
+blockquote {
+    font-style: italic;
+    font-family: Georgia;
+    padding-left: 2em;
+    border-left: 5px solid #ccc;
+}
+blockquote cite {
+    font-weight: bold;
+}
+
+/* body */
+html {
+    background-color: #111;
+}
+
+body {
+    font: 12px/18px "Lucida Grande", Verdana, sans-serif;
+/*    text-shadow: #fff 0 1px 1px;*/
+}
+body {
+    background-image:url("../images/stars2.gif");
+}
+
+/* headings */
+#content h1 {
+    color: #234;
+    font: bold 24px/36px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-bottom: 15px;
+}
+h2 {
+    font: bold 18px/24px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 10px 0 5px;
+}
+h3 { font-size: 14px; line-height: 20px; }
+
+/* layout */
+#wrapper {
+    color: #333;
+    background-color: #eee;
+    width: 740px;
+    margin: 50px auto 20px;
+    overflow: hidden;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px; 
+}
+
+#masthead {
+    background: #000 url('../images/masthead_bkgnd.jpg') no-repeat center right;
+    font: bold 12px/14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #999;
+    padding: 20px;
+}
+#masthead a { color: #eee; }
+#masthead a:hover,
+#masthead a:active {
+    color: #999;
+    text-decoration: none;
+}
+/* on homepage, the masthead is set to h1; all other pages in h4 */
+#masthead h1,
+#masthead h4 {
+    color: #fff;
+    font-size: 24px;
+    line-height: 36px;
+}
+#navbar {
+    width: 740px;
+    background-color: #000;
+    float: right;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #333;
+}
+#navbar ul { padding: 0 5px 0; margin: 0; }
+#navbar li {
+    margin: 0; list-style: none;
+    float: left;
+    padding: 5px 0 3px;
+}
+#navbar li a {
+    padding: 1px 10px 1px;
+    margin: 0 2px 0;
+    color: #ccc; font-weight: bold;
+/*    text-shadow: #fff 0 1px 1px;*/
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+#navbar li a:hover,
+#navbar li a:active,
+#navbar li.selected a:hover,
+#navbar li.selected a:active {
+    background-color: #36c; color: #fff; text-decoration: none;
+}
+#navbar li.selected a {
+    background-color: #ccc; color: #000;
+}
+/*
+dee7f8  bkgnd
+a4bdec  border
+*/
+
+#container { margin-right: -201px; width: 100%; float: left; }
+#content { margin-right: 201px; padding: 10px; }
+#sidebar { width: 179px; float: right; padding: 10px; border-left: 1px solid #ccc; }
+#footer { clear: both; padding: 10px; border-top: 1px solid #ccc; color: #666; }
+#footer p { font-size: 0.8em; }
+
+/* content */
+#content img.right { float: right; margin-left: 10px; }
+#content img.left { float: left; margin-right: 10px; }
+#content .clear { clear: both; }
+#content p.alignRight { text-align: right; }
+
+/* custom override */
+div.menu,
+dl.menu {
+	border: 1px solid #ccc;
+	background-color: #ddd;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	padding: 10px;
+}
+dl.menu dt { width: 40%; float: left; text-align: right; text-transform: uppercase; font-size: 0.75em; font-weight: normal; }
+dl.menu dd { margin-left: 40%; padding-left: 1.5em; font-weight: bold; }
+
+.footnote { font-size: 0.85em; line-height: 1.2em; color: #777; }
+
+/*
+  To override how the dt/dd are split, override "width" field in dl.menu dt
+  and "margin-left" in dl.menu dd
+*/
