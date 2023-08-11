@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<title>AIAA @ UCSD - DBF Team</title>
+
+<link rel="stylesheet" href="../../_css/master.css" type="text/css" media="all" />
+<link rel="stylesheet" href="../../_css/lightbox.css" type="text/css" media="screen" />
+
+
+</head>
+
+<body>
+<div id="wrapper">
+	<div id="masthead">
+		<h4><a href="../../">AIAA @ UCSD</a></h4>
+		<p>UC San Diego student chapter<br />
+			American Institute of Aeronautics and Astronautics</p>
+	</div>
+	<div id="navbar">
+		<ul>
+			<li><a href="../../">Home</a></li>		
+			<li><a href="../../about/">About</a></li>
+			<li><a href="../../events/">Events</a></li>
+			<li><a href="../../people/">People</a></li>
+			<li class="selected"><a href="../../projects/">Projects</a></li>
+			<li><a href="../../outreach/">Outreach</a></li>
+			<li><a href="../../opportunities/">Opportunities</a></li>
+			<li><a href="../sponsors/">Sponsors</a></li>
+			<li><a href="../../alumni/">Alumni</a></li>
+		</ul>
+	</div>	
+	<div id="container">
+		<div id="content">
+
+		<h1>DBF Competition: 2015 - 2016 </h1>
+		
+		<img src="http://upload.wikimedia.org/wikipedia/commons/3/35/Global_Hawk,_NASA's_New_Remote-Controlled_Plane_-_October_2009.jpg" width="520" />
+		
+		<iframe src="https://www.google.com/calendar/embed?title=DBF%202014-15%20Calendar&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;mode=WEEK&amp;height=450&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=h9f3snsj6k9918r87r39kuggtk%40group.calendar.google.com&amp;color=%2329527A&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="520" height="450" frameborder="0" scrolling="no"></iframe>
+		
+		<br><a href="https://docs.google.com/document/d/1JR2Gw_1dtNeIkqqewRQlNILJIv2-1Zi4RwNyEwuYfeI/edit?usp=sharing">-Objectives for this week</a>
+		
+		<h3><a href="http://www.aiaadbf.org/2015_files/2015_rules_final_20141031.html">-Contest Rules</a></h3>
+		
+		<h3><font color = "red"> Deadlines: </font></h3>
+		<p>-Open Entry 15 October 2014 8AM US East Coast Time
+		<br>-Electronic Entry 31 October 2014 5 PM US East Coast Time
+		<br>-Friday, November 14, 2014	2014–2015 Matching Funds Program Begins
+		<br>-Monday, December 22, 2014	APPLICATIONS/SUPPORTING DOCUMENTS DUE BY 2:00PM TO IDEA Student 
+		<br>-Roster Update early 2015
+		<br>-Friday, February 6, 2015	Matching Funds Recipients/Amounts Released
+		<br>-Design Reports email designbuildfly@gmail.com by 5pm US East Coast Time 23 February 2015
+		
+		</p>
+		
+		<h3>Fly Off Information</h3>
+		<p><b>Location</b>:Tuson, Arizona</p>
+		<p><b>Dates: </b>: 10-12 April 2015</p>
+		<h2>Team Leads </h2>
+		
+		<script language="JavaScript1.2">
+
+//Presentational Slideshow Script- By Dynamic Drive
+//For full source code and more DHTML scripts, visit http://www.dynamicdrive.com
+//This credit MUST stay intact for legal use
+
+var slideshow_width='300px' //SET SLIDESHOW WIDTH (set to largest image's width if multiple dimensions exist)
+var slideshow_height='225px' //SET SLIDESHOW HEIGHT (set to largest image's height if multiple dimensions exist)
+var pause=3000 //SET PAUSE BETWEEN SLIDE (2000=2 seconds)
+var slidebgcolor="white"
+
+var dropimages=new Array()
+//SET IMAGE PATHS. Extend or contract array as needed
+dropimages[0]="http://i.imgur.com/jJ5V6wJ.png" 
+dropimages[1]="http://i.imgur.com/7yGvOyr.png"
+dropimages[2]="http://i.imgur.com/RhY7UZO.png"
+dropimages[3]="http://i.imgur.com/is7G2th.png"
+dropimages[4]="http://i.imgur.com/sHVxicH.png"
+dropimages[5]="http://i.imgur.com/oBBUa43.png"
+dropimages[6]="http://i.imgur.com/SrVEpgZ.png"
+dropimages[7]="http://imgur.com/JNw47IH.png"
+dropimages[8]="http://imgur.com/Ue5hCJK.png"
+
+var droplinks=new Array()
+//SET IMAGE URLs. Use "" if you wish particular image to NOT be linked:
+droplinks[0]="http://www.yahoo.com"
+droplinks[1]=""
+droplinks[2]="http://www.google.com"
+
+
+////NO need to edit beyond here/////////////
+
+var preloadedimages=new Array()
+for (p=0;p<dropimages.length;p++){
+preloadedimages[p]=new Image()
+preloadedimages[p].src=dropimages[p]
+}
+
+var ie4=document.all
+var dom=document.getElementById
+
+if (ie4||dom)
+document.write('<div style="position:relative;width:'+slideshow_width+';height:'+slideshow_height+';overflow:hidden"><div id="canvas0" style="position:absolute;width:'+slideshow_width+';height:'+slideshow_height+';background-color:'+slidebgcolor+';left:-'+slideshow_width+'"></div><div id="canvas1" style="position:absolute;width:'+slideshow_width+';height:'+slideshow_height+';background-color:'+slidebgcolor+';left:-'+slideshow_width+'"></div></div>')
+else
+document.write('<a href="javascript:rotatelink()"><img name="defaultslide" src="'+dropimages[0]+'" border=0></a>')
+
+var curpos=parseInt(slideshow_width)*(-1)
+var degree=10
+var curcanvas="canvas0"
+var curimageindex=linkindex=0
+var nextimageindex=1
+
+
+function movepic(){
+if (curpos<0){
+curpos=Math.min(curpos+degree,0)
+tempobj.style.left=curpos+"px"
+}
+else{
+
+clearInterval(dropslide)
+nextcanvas=(curcanvas=="canvas0")? "canvas0" : "canvas1"
+tempobj=ie4? eval("document.all."+nextcanvas) : document.getElementById(nextcanvas)
+var slideimage='<img src="'+dropimages[curimageindex]+'" border=0>'
+tempobj.innerHTML=(droplinks[curimageindex]!="")? '<a href="'+droplinks[curimageindex]+'">'+slideimage+'</a>' : slideimage
+nextimageindex=(nextimageindex<dropimages.length-1)? nextimageindex+1 : 0
+setTimeout("rotateimage()",pause)
+}
+}
+
+function rotateimage(){
+if (ie4||dom){
+resetit(curcanvas)
+var crossobj=tempobj=ie4? eval("document.all."+curcanvas) : document.getElementById(curcanvas)
+crossobj.style.zIndex++
+var temp='setInterval("movepic()",50)'
+dropslide=eval(temp)
+curcanvas=(curcanvas=="canvas0")? "canvas1" : "canvas0"
+}
+else
+document.images.defaultslide.src=dropimages[curimageindex]
+linkindex=curimageindex
+curimageindex=(curimageindex<dropimages.length-1)? curimageindex+1 : 0
+}
+
+function rotatelink(){
+if (droplinks[linkindex]!="")
+window.location=droplinks[linkindex]
+}
+
+function resetit(what){
+curpos=parseInt(slideshow_width)*(-1)
+var crossobj=ie4? eval("document.all."+what) : document.getElementById(what)
+crossobj.style.left=curpos+"px"
+}
+
+function startit(){
+var crossobj=ie4? eval("document.all."+curcanvas) : document.getElementById(curcanvas)
+crossobj.innerHTML='<a href="'+droplinks[curimageindex]+'"><img src="'+dropimages[curimageindex]+'" border=0></a>'
+rotateimage()
+}
+
+if (ie4||dom)
+window.onload=startit
+else
+setInterval("rotateimage()",pause)
+
+</script>
+
+		
+		<h2>Progress Updates</h2>
+			<h3>Successful First Flight</h3>
+			<h4>September 2014</h4>
+
+
+		</div>
+	</div>
+	<div id="sidebar">
+
+		<h3>Previous Years</h3>
+			<h4><a href="../dbf/2013-2014">2013 - 2014</a></h4>		
+			<h4><a href="../dbf/2012-2013">2012 - 2013</a></h4>
+			<h4><a href="../dbf/2011-2012">2011 - 2012</a></h4>
+			<h4><a href="../dbf/2010-2011">2010 - 2011</a></h4>
+
+	</div>
+	<div id="footer">
+		<p>2009&ndash;2014 &copy; AIAA @ UCSD. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/">Some rights reserved</a>. <a href="../../contact/">Contact us</a></p>
+	</div>
+</div>
+</body>
+</html>

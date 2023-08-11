@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AIAA @ UCSD</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="eventpage">
+
+            <!-- Header / Navbar Section -->
+            <img src="Images/aiaa_logo.gif" alt="AIAA Logo" class="logo">
+
+            <div class="dropdown">
+                <button class="icon" onclick="expandNav()">&#9776;</a>
+                <div class="phonenav" id="myPhoneNav">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <!-- <a href="#">Teams</a> -->
+                    <a href="#">Events</a>
+                    <!-- <a href="#">Alumni</a> -->
+                    <a href="sponsors.html">Sponsors</a>
+                </div>
+            </div>
+
+            <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <!-- <li><a href="#">Teams</a></li> -->
+                <li><a href="#">Events</a></li>
+                <!-- <li><a href="#">Alumni</a></li> -->
+                <li><a href="sponsors.html">Sponsors</a></li>
+            </ul>
+            </nav>
+
+            <!-- End Header / Navbar Section -->
+
+            <h1 class="titlename">Upcoming Events</h1>
+        </div>
+
+        <!-- About Page Body -->
+        <div class="eventus">
+            <h2>Fall GBM #1</h2>
+            <h4>October 10 &middot; 5:30 PM &middot;  EBU 2 Rm. 584</h4>
+            <p>We will be having our first GBM of the year where we will provide an overview of what AIAA is, the opportunities available through AIAA, and how to get involved. In addition, three different project teams will be presenting their projects to recruit new members and answer any questions that you might have. This is a great opportunity to get involved and start your aerospace experience at UCSD! The experiences you will gain through AIAA are exactly what real industry recruiters are looking for! The GBM will take place on Tuesday Oct 10th, 5:30pm in EBU 2 Room 584. We hope to see you there!</p>
+
+            <h2>AIAA Bonfire</h2>
+            <h4>October 13 &middot; 6 PM &middot;  La Jolla Shores</h4>
+            <p>Come eat s'mores at the Shores with your fellow AIAA members at this social event coming up next week! For those who will need rides to this event, we will have rides available near Sun God Lawn by 5:45PM to accommodate the Friday MAE 2 session. There will be games and kind faces all around. Keep an eye out for an RSVP form in a future email! Hope to see you all there!</p>
+        </div>
+
+        <div class="aboutpage" style="min-height:30%">
+            <h2 class="titlename">Past Events</h2>
+        </div>
+
+        <div class="eventus">
+            <h2>Distinguished Lecturer with Alice Bowman</h2>
+            <h4>March 8 &middot; 7 PM &middot;  Qualcomm Conference Center, Jacobs Hall</h4>
+            <p>Ms. Bowman has worked for over 15 years as the Mission Operations Manager at the Johns Hopkins University Applied Physics Laboratory. In her role, she currently supervises five in-flight spacecraft, one of which includes the New Horizons Spacecraft that passed by Pluto on July 14, 2005. <P/>
+        </div>
+
+        <div class="aboutpage" style="min-height:30%"></div>
+        <!-- End About Page Body -->
+
+
+        <script>
+            /* When user clicks on button, toggle between
+            hiding and showing content */
+            function expandNav() {
+                document.getElementById("myPhoneNav").classList.toggle("show");
+            }
+        </script>
+    </body>
+
+</html>

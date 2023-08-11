@@ -1,0 +1,273 @@
+<!--
+	AIAA @ UCSD
+	American Institute of Aeronautics and Astronautics
+	University of California, San Diego student chapter
+
+	Originally designed & crafted by Jeff Chang.
+
+    CONTRIBUTORS
+    	
+	Jeff Chang (chc013 at ucsd dot edu)
+	Stevie Jacobson (s1jacobs at ucsd dot edu)
+	
+	
+	Code and design released under Creative Commons by-nc-sa 3.0 license.
+	See http://creativecommons.org/licenses/by-nc-sa/3.0/us/ for details.
+	
+	
+	ACKNOWLEDGEMENTS
+	
+	AIAA @ UCSD would like to thank NASA (http://nasa.gov/) for many of the
+	gorgeous images used on this website. Full copyright information from
+	NASA can be retrieved at:
+		http://grin.hq.nasa.gov/copyright.html
+
+	This website uses many Javascript frameworks, including Scriptaculous,
+	Lightbox 2, Slideshow2!, and Prototype.
+	
+	http://script.aculo.us/
+	http://www.huddletogether.com/projects/lightbox2/
+	http://www.electricprism.com/aeron/slideshow/
+	http://www.prototypejs.org/
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="Author" content="AIAA @ UCSD" />
+	<meta name="viewport" content="width=1024" />
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+	<title>AIAA @ UCSD</title>
+	<meta name="Keywords" content="AIAA" />
+	<meta name="Description" content="AIAA @ UCSD is the student chapter of American Institute of Aeronautics and Astronautics at University of California, San Diego, fostering the education of future aerospace engineers and encouraging professional development." />
+	
+<link rel="stylesheet" href="_css/master.css" type="text/css" media="all" />
+<link rel="stylesheet" href="_css/lightbox.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="_css/slideshow.css" type="text/css" media="screen" />
+
+<!-- Lightbox, Scriptaculous and Lightbox-->
+<!--
+	CANNOT USE LIGHTBOX WITH SLIDESHOW
+<script type="text/javascript" src="_js/prototype.js"></script>
+<script type="text/javascript" src="_js/scriptaculous.js?load=effects,builder"></script>
+<script type="text/javascript" src="_js/lightbox_homepage.js"></script>
+-->
+
+<!-- Slideshow	-->
+<script type="text/javascript" src="_js/mootools.js"></script>
+<script type="text/javascript" src="_js/slideshow.js"></script>
+<script type="text/javascript">		
+//<![CDATA[
+  window.addEvent('domready', function(){
+    var data = {
+	/*	README: photos on the homepage...
+	-	All images should be stored under "images/"
+	- Images work best when shrunken/cropped to 512x384 (landscape)
+		or 384x512 (portrait), in pixels.
+	- To add more images, follow the format below. Make sure to include
+		captions for photos.
+	*/
+/*			'2015-2016/Resume_Workshop.jpg':{caption:
+				'Test 1'},
+*/
+			'2015-2016/Enspire.jpg':{caption:
+				'Demonstration to middle school students to show them how jets land on aircraft carriers.'},
+			'2015-2016/DBF2015_3.jpg':{caption:
+				'2015 DBF team at competition in Tuscon, Az.'},
+			'2015-2016/Board_Dinner.jpg':{caption:
+				'AIAA board dinner with Dr. Mark Anderson.'},
+			'2015-2016/DBF2015_2.jpg':{caption:
+				'Ready for flight! (DBF, 2015)'},
+			'2015-2016/DBF2015_1.jpg':{caption:
+				'DBF team members at competition in Tuscon, AZ.'},			
+            '2015-2016/Cansat1.jpg':{caption:
+				'Cansat team member solid modeling using SolidWorks.'},
+			'2015-2016/2014DBF.jpg':{caption:
+				'Ready for flight! (DBF 2014).'},
+/*
+			'2015-2016/AIAABoardwithChris.jpg':{caption
+				'Test 9'},
+			'2015-2016/Halloffamedinner.jpg':{caption
+				'Test 10'},
+			'2015-2016/MeetingGeneKranz.jpg':{caption
+				'Test 11'},
+			'2015-2016/MidwayTrip.jpg':{caption
+				'Test 12'},
+/*
+			'2009-2010/SpaceDay_02.jpg':{caption:
+				'Inspiring children to join the fields of science and engineering tomorrow'},
+			'2009-2010/SpaceDay_01.jpg':{caption:
+				'Outreach at Space Day, San Diego Air & Space Museum'},
+*/
+    };
+    var myShow = new Slideshow('mainpage_slideshow', data, { captions: true, random: true,
+		controller: false, height: 384, hu: 'images/', width: 540 });
+  });
+//]]>
+</script>
+
+
+</head>
+
+<body>
+<div id="wrapper">
+	<div id="masthead">
+		<h1>AIAA @ UCSD</h1>
+		<p>UC San Diego Student Chapter<br />
+			American Institute of Aeronautics and Astronautics</p>
+	</div>
+	<div id="navbar">
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="about/">About</a></li>
+			<li><a href="events/">Events</a></li>
+			<li><a href="people/">People</a></li>
+			<li><a href="projects/">Projects</a></li>
+			<li><a href="outreach/">Outreach</a></li>
+			<li><a href="opportunities/">Opportunities</a></li>
+			<li><a href="../sponsors/">Sponsors</a></li>
+			<li><a href="alumni/">Alumni</a></li>
+		</ul>
+	</div>
+	<div id="container">
+		<div id="mainpage_slideshow" class="slideshow">
+			<!-- the image below i/s hidden if slideshow is available -->
+	    <img src="images/NASA/GPN-2000-001039.jpg" width="240" alt="Fish eye view of Space Shuttle Atlantis (STS-71) from Russian Mir Space Station. Image courtesy of NASA." />
+	  </div>
+		<div id="content">
+			<h2>News</h2>
+			<p>Welcome to the AIAA at UCSD site!  The AIAA@UCSD board has planned some great events for this year.  If you haven't met our new board members, head on over to our <a href="/people/">People Page</a>.  Please check out our upcoming events on the right, and take a look at our project teams on the <a href="projects/">Projects Page</a>.  If you are interested in buying an AIAA T-shirt (see example <a href="https://www.facebook.com/ucsdaiaa/photos/a.305550106317257.1073741831.241106172761651/305550946317173/?type=3&theater">here</a>), please come to one of our GBM's or <a href="mailto:aiaa@ucsd.edu?subject=AIAA T-Shirts">email us</a>!</p>
+			
+			<p>Looking for tips on resume format and content? Check out our helpful Resume Tips presentation. You can download the PDF <a href="/stuff/AIAAResumeTips.pdf">here</a></p>
+
+			<h2>New Website</h2>
+			<p>We have a new Website coming soon! <a href="newFiles/index.html">Here is a preview</a>!</p>
+		</div> 
+	</div>
+	<div id="sidebar">
+		<h2>Upcoming events</h2>
+		<dt><a href="events/#BOWMAN">Distinguished Lecturer with Alice Bowman</a></dt>
+			<dd>Date: March 8</dd>
+			<dd>Time: t PM</dd>
+			<dd>Location: Qualcomm Conference Center, Jacobs Hall</dd>
+		
+
+
+		<!--<dt><a href="events/#Fall GBM #1">Fall GBM #1</a></dt>
+			<dd>Date: Wed, 28th Sept</dd>
+			<dd>Time: 7pm</dd>
+			<dd>Place: EBU 2 Room 479 </dd>
+
+		<dt><a href="events/#Boeing Recruiting Event">Boeing Recruiting Event</a></dt>
+			<dd>Date: Tue, 4th Oct</dd>
+			<dd>Time: 4pm</dd>
+			<dd>Place: EBU 2 Room 479 </dd> -->		
+			
+		
+<!--BEGIN UPCOMING EVENTS	 
+			
+		<!--
+		<dt><a href="events/#Mentor">Mentor/Mentee Fall Social</a></dt>
+			<dd>Date: Friday, October 21st</dd>
+			<dd>Time: 3-5 PM</dd>
+			<dd>Location: EBU II Room 127</dd>
+
+		<dt><a href="events/#NAVAIR">NAVAIR Talk by Chris Root</a></dt>
+			<dd>Date: Tuesday, November 1st</dd>
+			<dd>Time: 6-7 PM</dd>
+			<dd>Location: EBU II Room 479</dd>-->	
+			
+			
+<!-- SAVED EVENTS FROM PREVIOUS YEARS -->
+
+<!--
+
+		<dt><a href="events/#webinar">AIAA UAV Design Webinar</a></dt>
+			<dd>Date: Wed, April 2nd</dd>
+			<dd>Time: 10 AM</dd>
+			<dd>Place: EBU2-584</dd>
+			
+		<dt><a href="events/#astro">Planetarium Trip</a></dt>
+			<dd>Date: Wed, April 2nd</dd>
+			<dd>Time: 6:00 PM</dd>
+			<dd>Meet at Sun God for Rides</dd>
+
+		<dt><a href="events/#plaster">Plaster Blaster Trip</a></dt>
+			<dd>Date: Fri, Dec 12</dd>
+			<dd>Time: 2 PM PM</dd>
+			<dd>Place: Meet at Sun God</dd>
+	
+		<dt><a href="events/#plaster">Plaster Blaster Trip</a></dt>
+			<dd>Date: Sat, Nov 2nd</dd>
+			<dd>Time: 10:00 AM-4:00 PM</dd>
+			<dd>Place: Meet at Sun God</dd>
+			
+		<dt><a href="events/#Miramar">Miramar Air Show Trip</a></dt>
+			<dd>Date: Sat, Oct 5th</dd>
+			<dd>Time: 10 AM</dd>
+			<dd>Sign up at GBM or via email</dd>
+			<dd>Meet at Sun God Statue</dd>
+
+		<dt><a href="events/#EOTG">Engineers on the Green</a></dt>
+			<dd>Date: Mon, Sept 30th</dd>
+			<dd>Time: 3:00-7:00 PM</dd>
+			<dd>Matthews Quad</dd>
+
+		<dt><a href="events/#banquet">AIAA@UCSD Banquet</a></dt>
+			<dd>Date: Tues, 5/21</dd>
+			<dd>Time: 7:15 PM </dd>
+			<dd>Huerta Vera Cruz Room</dd>
+			<dd>Old Student Center</dd>
+			
+		<dt>AIAA-SD Banquet</dt>
+			<dd>Date: Thurs, 5/23</dd>
+			<dd>Time: 6 PM </dd>
+			<dd>Admiral Baker CC</dd>			
+					
+		<dt><a href="events/#JunkyardDerby">Junkyard Derby</a></dt>
+			<dd>Build: Sat/Sun, 5/4 & 5/5</dd>
+			<dd>Location: Lot 705 </dd>
+			<dd>Race: Mon, 5/6 </dd>
+			<dd>Location: Peterson Hill</dd>
+
+		<dt><a href="events/#SpaceDay">SDASM Space Day</a></dt>
+			<dd>Date: Sat, 5/11</dd>
+			<dd>Time: 10 AM - 3 PM</dd>
+			<dd>SD Air & Space Museum</dd>
+			
+		<dt><a href="events/#elections">Elections</a></dt>
+			<dd>Date: Wed, 5/15</dd>
+			<dd>Time: 3:30 PM</dd>
+			<dd>ERC Room - Price Center</dd>		
+			
+		<dt><a href="events/#EOTG">Engineers on the Green</a></dt>
+			<dd>Date: Tues, Sept 25th</dd>
+			<dd>Time: 3:00-7:00 PM</dd>
+			<dd>Matthews Quad</dd>
+		
+		<dt><a href="events/#Tabling">Library Walk Tabling</a></dt>
+			<dd>Date: Mon, Oct 1st</dd>
+			<dd>Date: Fri, Oct 5th</dd>
+			<dd>Library Walk - 1990</dd>
+			
+		<dt><a href="events/#org_fair">TESC Org Fair</a></dt>
+			<dd>Date: Wed, 10/3</dd>
+			<dd>Time: 7:00-8:30 PM</dd>
+			<dd>SSC Multipurpose Room</dd>
+		
+-->
+<!-- 	END UPCOMING EVENTS	 -->
+		</dl>
+		
+		<h3>What's AIAA @ UCSD?</h3>
+		<p>Not just for people interested in aerospace. <a href="about/">Find out more&hellip;</a></p>
+		
+	</div>
+	<div id="footer">
+		<p>2009&ndash;2014 &copy; AIAA @ UCSD. <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/">Some rights reserved</a>. <a href="contact/">Contact us</a>. Images courtesy of <a href="http://www.nasa.gov"><acronym title="National Aeronautics and Space Administration">NASA</acronym></a>.</p>
+	</div>
+</div>
+</body>
+</html>

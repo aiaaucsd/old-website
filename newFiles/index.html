@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AIAA @ UCSD</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="homepage">
+
+            <!-- Header / Navbar Section -->
+            <img src="Images/aiaa_logo.gif" alt="AIAA Logo" class="logo">
+
+            <div class="dropdown">
+                <button class="icon" onclick="expandNav()">&#9776;</a>
+                <div class="phonenav" id="myPhoneNav">
+                    <a href="#">Home</a>
+                    <a href="about.html">About</a>
+                    <!-- <a href="#">Teams</a> -->
+                    <a href="events.html">Events</a>
+                    <!-- <a href="#">Alumni</a> -->
+                    <a href="sponsors.html">Sponsors</a>
+                </div>
+            </div>
+
+            <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <!-- <li><a href="#">Teams</a></li> -->
+                <li><a href="events.html">Events</a></li>
+                <!-- <li><a href="#">Alumni</a></li> -->
+                <li><a href="sponsors.html">Sponsors</a></li>
+            </ul>
+            </nav>
+
+            <!-- End Header / Navbar Section -->
+
+            <!-- Home Page Body -->
+            <h1 class="titlename">AIAA @ UCSD</h1>
+
+            <div class="home-body">
+                <p>We are the UC San Diego Student Chapter of the American 
+                Institute of Aeronautics and Astronautics. We are a group of 
+                students who have come together to connect students with the
+                Aerospace Industry as well as bring awareness and encourage 
+                particiption in learning about Space.</p>
+            </div>
+
+            <!-- End Home Page Body -->
+        </div>
+
+
+        <script>
+            /* When user clicks on button, toggle between
+            hiding and showing content */
+            function expandNav() {
+                document.getElementById("myPhoneNav").classList.toggle("show");
+            }
+        </script>
+    </body>
+
+</html>
